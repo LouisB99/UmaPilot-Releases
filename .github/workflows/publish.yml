@@ -25,7 +25,7 @@ jobs:
           base="https://raw.githubusercontent.com/$GH_REPO/$RELEASE_COMMIT"
           curl --fail --silent --show-error --location --retry 4 --retry-all-errors "$base/channel/publish.json" -o publish.json
           version=$(python3 -c 'import json; print(json.load(open("publish.json"))["version"])')
-          [[ "$version" =~ ^v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo 'Invalid version'; exit 1; }
+          [[ "$version" =~ ^v(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]] || { echo 'Use vMAJOR.MINOR.PATCH, for example v0.1.0'; exit 1; }
           for file in application.zip manifest.json update.json UmaPilot-Enable-Updates.zip notes.md; do
             curl --fail --silent --show-error --location --retry 4 --retry-all-errors "$base/releases/$version/$file" -o "$file"
           done
