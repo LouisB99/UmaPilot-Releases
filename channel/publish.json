@@ -1,10 +1,10 @@
 {
-  "version": "v0.1.7",
+  "version": "v0.1.8",
   "sha256": {
-    "application.zip": "1e6e5f570012dac304854a0a4ffc09752918736bc0b0c490cf2b67511e8f4f2a",
-    "manifest.json": "6f8bb62194de5602ae33c5cf070ab7df1d670e5883e4a7ef8f8f91afbda56d35",
-    "update.json": "7942aebcfa4037d47053a9aeba9c1ba0c09fae1d5987861468a4ca34398032cd",
-    "notes.md": "dca7e2517f465fa817f942f0583f735b0dcbf7b89153b2a9fe96bbcce04a87d3",
+    "application.zip": "006a05d7726db98481947a42dcd1d044d07a7d30b7b61828bbc2a6815f2c33dc",
+    "manifest.json": "c7b1a0cc5ca30616baebad653be074fcc66d6e794cc31ecee891df12ad1c4059",
+    "update.json": "377ed042f7283d5fb7d875602c0dfa529267d552c2d6c782e903c9ec2ebffbae",
+    "notes.md": "db336e9b49849f4405fc33e6072d6bf6c783e2f41242d49dc2ba4e1d3f644531",
     "UmaPilot-Enable-Updates.zip": "9796ced084b3c5811edd2c50aafc1f4445cb0aeabe7e357a520ff10d7a6dd095"
   }
 }
